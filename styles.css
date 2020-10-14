@@ -1,0 +1,61 @@
+* {
+    box-sizing : border-box;
+    margin: 0;
+}
+
+body
+{
+    background:linear-gradient(to right , #008891, #00587A , #0f3057);
+    
+}
+.container
+{
+    min-width: 500px;
+    margin:13% auto ;
+    text-align: center;
+    line-height: 55px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 45px;
+    color : #f6f6f6;
+    font-family: 'Roboto Slab', serif;
+    animation :anim 2s ease;
+}
+p{
+    font-size: 1.5rem;
+    color : #f5efef;
+    font-family: sans-serif;
+    animation :anim 2s ease;
+}
+
+button
+{
+    animation :anim 2s ease;
+    width:90px;
+    height: 40px;
+    border-radius : 500px;
+    background-color : #f56a79;
+    transition : all 0.5s;
+    border : none;
+    color : #f6f6f6;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color : #ff414d;
+}
+
+@keyframes anim
+{
+    from{
+        transform: translateY(163px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+
